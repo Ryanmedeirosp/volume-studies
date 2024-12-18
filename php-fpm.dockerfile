@@ -28,5 +28,5 @@ CMD ["bash", "-c", "php-fpm8.3 -F"]
 ## comando para run
 #  docker run -it -p 9000:9000 --network wordpress-net --privileged --name php-fpm php-fpm 
 
-# docker run -d --name php-fpm --network wordpress-net -v wordpress_data:/var/www/html  -p 9000:9000  php:8.3-fpm
+# docker run -d --name php-fpm --network wordpress-net -v wordpress_data:/var/www/html  -p 9000:9000  php-fpm
 

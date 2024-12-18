@@ -20,4 +20,4 @@ CMD ["mariadbd","--user=root"]
 
 #  docker run -it -p 3306:3306 --network wordpress-net --name mariadb  mariadb
 
-#docker run -d --name mariadb -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=root_password --network wordpress-net -v mariadb_data:/var/lib/mysql -p 3306:3306 mariadb:latest
+#docker run -d --name mariadb -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=user -e MYSQL_PASSWORD=1234 --network wordpress-net -v mariadb_data:/var/lib/mysql -p 3306:3306 mariadb:latest
